@@ -8,6 +8,8 @@ vim.o.smartcase=true
 vim.o.cursorline=true
 -- 显示行号
 vim.o.number=true
+-- 显示动态行号
+vim.o.relativenumber=true
 -- 使用 foldexpr 指定的方式折叠代码
 vim.cmd('set foldmethod=expr')
 -- 使用 treesitter 根据语言语法折叠代码
