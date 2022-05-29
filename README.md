@@ -18,6 +18,6 @@
 <code>git submodule add https://github.com/hrsh7th/vim-vsnip pack/vendor/start/vim-vsnip</code>
 
 <code>warning:</code><p>
-if <code>"/usr/bin/ld: cannot find -lstdc++"</code> occuers when using <code>:TSInstall go lua vim</code> to install the support for languages,use the command bellow:<p>
+if <code>"/usr/bin/ld: cannot find -lstdc++"</code> occuers when using <code>:TSInstall go lua vim</code> to install the support for languages,use the command following:<p>
 <code>sudo dnf install libstdc++-static libstdc++-static.i686</code>
 
