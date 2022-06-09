@@ -1,0 +1,12 @@
+git submodule add https://github.com/epii1/fzf.vim pack/vendor/start/fzf
+git submodule add https://github.com/scrooloose/nerdtree pack/vendor/start/nerdtree
+git submodule add https://github.com/Xuyuanp/nerdtree-git-plugin pack/vendor/start/nerdtree-git
+git submodule add https://github.com/epii1/ag.vim pack/vendor/start/ag
+git submodule add https://github.com/nvim-treesitter/nvim-treesitter pack/vendor/start/treesitter
+git submodule add https://github.com/neovim/nvim-lspconfig pack/vendor/start/lspconfig
+git submodule add https://github.com/hrsh7th/nvim-cmp pack/vendor/start/cmp
+git submodule add https://github.com/hrsh7th/cmp-path pack/vendor/start/cmp-path
+git submodule add https://github.com/hrsh7th/cmp-vsnip pack/vendor/start/cmp-vsnip
+git submodule add https://github.com/hrsh7th/cmp-buffer pack/vendor/start/cmp-buffer
+git submodule add https://github.com/hrsh7th/cmp-nvim-lsp pack/vendor/start/cmp-lsp
+git submodule add https://github.com/hrsh7th/vim-vsnip pack/vendor/start/vim-vsnip
