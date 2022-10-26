@@ -83,7 +83,7 @@ cmp.setup {
 
 -- 将 cmp-lsp 跟 lsp 服务关联起来
 local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require'cmp_nvim_lsp'.update_capabilities(capabilities)
+capabilities = require'cmp_nvim_lsp'.default_capabilities(capabilities)
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
@@ -129,7 +129,7 @@ local org_imports = function (wait_ms)
 end
 
 -- format the code before writting to file
-vim.api.nvim_create_autocmd("BufWritePre", {pattern = "*.go", callback = function() vim.lsp.buf.formatting() end})
+vim.api.nvim_create_autocmd("BufWritePre", {pattern = "*.go", callback = function() vim.lsp.buf.format() end})
 -- organize imports when saving file
 vim.api.nvim_create_autocmd("CompleteDone", {pattern = "*.go", callback = function() org_imports(1000) end})
 -- go to last location of Buffer
